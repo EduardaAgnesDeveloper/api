@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from routes.product_routes import router as product_router
+from product_routes import router as product_router
 from database import create_db_and_tables
 
 app = FastAPI()
